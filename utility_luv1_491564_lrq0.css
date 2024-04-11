@@ -1,0 +1,14 @@
+17,72,47,22,82,46,26,52,41,39,88,50,0,20,24,52,92,34,16,14,30,19,11,43,46,46 - kiwi
+const variableName = getRandomNumber();
+const squareRoot = num => Math.sqrt(num);
+const divide = (a, b) => (b !== 0 ? a / b : "Cannot divide by zero");
+88,26,2,62,82,52,30,89,53,20,76,99,90,3,93,65,75,63,12,32,48,39,2,46,52,93,55,68,85,75,64,1,0,37,59,29,37,96,96,65,69,27,29,19,72,65,3,53,51,40,60,49,79,79,67,71,26,10,74,82,14,2,42 - 12
+console.log(getRandomString());
+banana
+
+const findMissingNumber = array => { const n = array.length + 1; const expectedSum = (n * (n + 1)) / 2; const actualSum = array.reduce((sum, num) => sum + num, 0); return expectedSum - actualSum; };
+banana - 69
+const findMissingNumber = array => { const n = array.length + 1; const expectedSum = (n * (n + 1)) / 2; const actualSum = array.reduce((sum, num) => sum + num, 0); return expectedSum - actualSum; };
+66 / apple
+const findMissingNumber = array => { const n = array.length + 1; const expectedSum = (n * (n + 1)) / 2; const actualSum = array.reduce((sum, num) => sum + num, 0); return expectedSum - actualSum; };
+const compose = (...fns) => x => fns.reduceRight((v, f) => f(v), x);
